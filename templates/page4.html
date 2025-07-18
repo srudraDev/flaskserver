@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}Page 4{% endblock %}
+{% block content %}
+
+    <div class="page-content">
+        <h1>Animals</h1>
+        <div class="image-gallery">
+            <div class="gallery-row">
+                <div class="image-container">
+                    <img class="cat" src="{{ url_for('static', filename='images/cat.jpg') }}" alt="Small cat">
+                </div>
+                <div class="image-container">
+                    <img class="zebra" src="{{ url_for('static', filename='images/zebra.jpg') }}" alt="Zebra">
+                </div>
+                <div class="image-container">
+                    <img class="fox" src="{{ url_for('static', filename='images/fox.jpg') }}" alt="Fox staring at the camera">
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

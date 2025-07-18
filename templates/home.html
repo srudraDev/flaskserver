@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block content %}
+    <div class="intro">
+        <h1>Welcome to My Custom Flask Web Server</h1>
+        <p>This site was created for CS 4675 to explore web server functionality, performance, and caching using Flask.</p>
+        <img class="gt" src="{{ url_for('static', filename='images/jacket.jpg') }}" alt="GT Yellow Jacket Mascot">
+        <p>Check out <strong>Page 1</strong>, a gallery of classic Disney characters.</p>
+        <p>Check out <strong>Page 2</strong>, stunning cityscape photos from around Atlanta.</p>
+        <p>Check out <strong>Page 3</strong>, beautiful sunset scenes to relax your mind.</p>
+        <p>Check out <strong>Page 4</strong>, animals in the wild.</p>
+        <p>Check out <strong>Page 5</strong>, a surprise collection 😉</p>
+    </div>
+{% endblock %}

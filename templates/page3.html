@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}Page 3{% endblock %}
+{% block content %}
+
+    <div class="page-content">
+        <h1>Sunsets</h1>
+        <div class="image-gallery">
+            <div class="gallery-row">
+                <div class="image-container">
+                    <img class="red_sky" src="{{ url_for('static', filename='images/red_sky.jpg') }}" alt="Driving into the Red Sky">
+                </div>
+                <div class="image-container">
+                    <img class="sunset" src="{{ url_for('static', filename='images/beach.jpg') }}" alt="Sunset at the Beach">
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

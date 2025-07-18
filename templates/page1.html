@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}Page 1{% endblock %}
+{% block content %}
+
+    <div class="page-content">
+        <h1>Disney Characters</h1>
+        <div class="image-gallery">
+            <div class="gallery-row">
+                <div class="image-container">
+                    <img class="lightyear" src="{{ url_for('static', filename='images/buzz.jpg') }}" alt="Buzz Lightyear">
+                    <p class="caption">Buzz Lightyear</p>
+                </div>
+                <div class="image-container">
+                    <img class="pooh" src="{{ url_for('static', filename='images/pooh.jpg') }}" alt="Winnie the Pooh">
+                    <p class="caption">Winnie the Pooh</p>
+                </div>
+            </div>
+            <div class="gallery-row">
+                <div class="image-container">
+                    <img class="stitch" src="{{ url_for('static', filename='images/stitch.jpg') }}" alt="Stitch">
+                    <p class="caption">Stitch</p>
+                </div>
+                <div class="image-container">
+                    <img class="ducky" src="{{ url_for('static', filename='images/duck.jpg') }}" alt="Donald Duck">
+                    <p class="caption">Donald Duck</p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

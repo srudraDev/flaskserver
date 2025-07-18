@@ -1,0 +1,174 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100vh;
+    margin: 0;
+    padding-top: 60px;
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+img {
+    border: 5px solid #000000;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+.gt {
+    max-width: 350px;
+    height: 350px;
+    border: 5px solid #ffd700;
+}
+
+.lightyear {
+    max-width: 475px;
+    height: 316px;
+}
+
+.pooh {
+    max-width: 350px;
+    height: 356px;
+}
+
+.stitch {
+    max-width: 200px;
+    height: 300px;
+}
+
+.ducky {
+    max-width: 450px;
+    height: 300px;
+}
+
+.pied_reflect {
+    max-width: 500px;
+    height: 334px;
+}
+
+.skyline {
+    max-width: 500px;
+    height: 281px;
+}
+
+.red_sky {
+    max-width: 500px;
+    height: 333px;
+}
+
+.sunset {
+    max-width: 350px;
+    height: 525px;
+}
+
+.cat {
+    max-width: 350px;
+    height: 350px;
+}
+
+.zebra {
+    max-width: 350px;
+    height: 350px;
+}
+
+.fox {
+    max-width: 350px;
+    height: 350px;
+}
+
+.pepe {
+    max-width: 350px;
+    height: 350px;
+}
+
+.meme1 {
+    max-width: 400px;
+    height: 300px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.1em;
+    color: #333;
+}
+
+.image-gallery {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.gallery-row {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.page-content {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.caption {
+    margin-top: 5px;
+    font-size: 0.9em;
+    font-style: italic;
+    color: #555;
+}
+/* mobile */
+@media (max-width: 768px) {
+    .gallery-row {
+        flex-direction: column;
+        align-items: center;
+    }
+}
