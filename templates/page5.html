@@ -2,25 +2,25 @@
 {% block title %}Surprise!{% endblock %}
 {% block content %}
 
-    <div class="page-content" style="text-align: center;">
-        <h1>Plot Twist</h1>
-        <p>Enjoy a few wholesome internet gems!</p>
-        <div class="image-gallery">
-            <div class="gallery-row">
-                <div class="image-container">
-                    <img class="pepe" src="{{ url_for('static', filename='images/pepe.gif') }}" alt="Frog on chair clapping their legs">
-                    <p class="caption">The semester ending be like</p>
-                </div>
-                <div class="image-container">
-                    <img class="meme1" src="{{ url_for('static', filename='images/meme1.jpg') }}" alt="Cat coding">
-                </div>
-                <div class="image-container">
-                    <a href="https://www.youtube.com/watch?v=k85mRPqvMbE" target="_blank">
-                        <img src="https://img.youtube.com/vi/k85mRPqvMbE/0.jpg" alt="Crazy Frog Thumbnail" style="max-width: 300px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.2); transition: transform 0.2s;">
-                        <p class="caption">Click to listen and watch Crazy Frog by Axel F</p>
-                    </a>
-                </div>
-            </div>
+<div class="page-content" style="text-align: center;">
+    <h1>Plot Twist</h1>
+    <p>Enjoy a few wholesome internet gems!</p>
+    <div class="image-gallery">
+        <div class="image-container">
+            <img class="pepe" src="{{ url_for('static', filename='images/pepe.gif') }}"
+                alt="Frog on chair clapping their legs">
+            <p class="caption">The semester ending be like</p>
+        </div>
+        <div class="image-container">
+            <img class="meme1" src="{{ url_for('static', filename='images/meme1.jpg') }}" alt="Cat coding">
+        </div>
+        <div class="image-container">
+            <a href="https://www.youtube.com/watch?v=k85mRPqvMbE" target="_blank">
+                <img src="https://img.youtube.com/vi/k85mRPqvMbE/0.jpg" alt="Crazy Frog Thumbnail"
+                    style="max-width: 300px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.2); transition: transform 0.2s;">
+                <p class="caption">Click to listen and watch Crazy Frog by Axel F</p>
+            </a>
         </div>
     </div>
+</div>
 {% endblock %}
