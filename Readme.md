@@ -3,10 +3,13 @@
 This is a simple Flask web server that serves a photo gallery with multiple pages. It uses Flask-Caching to cache the rendered templates to determine whether performance is improved.
 The server is hosted on Render (see website link in description).
 ## Installation
-1. Clone the repository in your preferred directory:
+1. Clone the repository in your preferred directory and set up virtual environment:
     ```bash
     git clone https://github.com/srudraDev/flaskserver.git
     cd flask_server
+    python3 -m venv .venv
+    source venv/bin/activate
+    source venv\Scripts\activate (Windows)
     pip install -r requirements.txt
     flask run
     ```
