@@ -22,17 +22,17 @@ def page2():
 @app.route("/page3")
 @cache.cached()
 def page3():
-    return render_template("page3.html")  # 1 photo
+    return render_template("page3.html")  # 2 photos
 
 @app.route("/page4")
 @cache.cached()
 def page4():
-    return render_template("page4.html")  # photo grid
+    return render_template("page4.html")  # 3 photos
 
 @app.route("/page5")
 @cache.cached()
 def page5():
-    return render_template("page5.html")  # mosaic layout
+    return render_template("page5.html")
 
 import os
 
