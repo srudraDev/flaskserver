@@ -7,7 +7,7 @@ The server is hosted on Render (see website link in description).
     ```bash
     git clone https://github.com/srudraDev/flaskserver.git
     cd flask_server
-    python3 -m venv venv
+    python3 -m venv .venv
     source venv/bin/activate
     source venv\Scripts\activate (Windows)
     pip install -r requirements.txt
